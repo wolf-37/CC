@@ -1,0 +1,18 @@
+public class CC_Prac_03 {
+    public static void printTable(Integer n) {
+        System.debug('Hello Jaidatt Kale !');
+        for (Integer i = 1; i <= 10; i++) {
+            if (i == 1) {
+                System.debug('Start');
+            } else if(i == 10) {
+                System.debug('Ending');
+            } else {
+                System.debug('Continuing');
+            }
+            System.debug(n + ' x ' + i + ' = ' + (n * i));
+        }
+    }
+}
+
+
+CC_Prac_03.printTable(5);
